@@ -22,3 +22,16 @@ This project implements a **single-cycle RISC-V CPU** in Verilog as part of [EEC
 - ALUController.v
 
 ## File Structure (Simulation Sources)
+- tb_processor.v
+  - processor.v
+    - Datapath.v
+      - FlipFlop.v
+      - InstMem.v
+      - RegFile.v
+      - ImmGen.v
+      - Mux.v (alu_mux)
+      - ALU.v
+      - DataMem.v
+      - Mux.v (writeback_mux)
+    - Controller.v
+    - ALUController.v
