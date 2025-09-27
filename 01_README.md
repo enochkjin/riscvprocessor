@@ -1,6 +1,7 @@
 # riscvprocessor
 
 This project implements a **single-cycle RISC-V CPU** in Verilog as part of [EECS 20] at UCI.
+All Verilog code **(EXCEPT STARTER TEMPLATE CODE PROVIDED BY THE COURSE)** is written by me.
 
 ## Features
 - Implements the RV32I base instruction set
